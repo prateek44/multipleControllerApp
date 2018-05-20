@@ -14,5 +14,16 @@
 
   </div>
   </div>
+  <div ng-controller="MultipleControllerAppParentController2 as parent">
+
+
+  <div  ng-controller="MultipleControllerAppChildController2 as child">
+    {{child.parentVal}}
+    <br>
+    {{parent.parentVal}}
+
+  </div>
+  </div>
+
 </body>
 </html>
