@@ -1,11 +1,18 @@
-<html>
+<html ng-app="MultipleControllerApp">
 <head>
   <script src="angular.min.js"></script>
   <script src="app.js"></script>
 </head>
 <title>
-  MultipleControllerApp
+  NestedMultipleControllerApp
 </title>
 <body>
+  <div ng-controller="MultipleControllerAppParentController">
+
+
+  <div  ng-controller="MultipleControllerAppChildController">
+
+  </div>
+  </div>
 </body>
 </html>
